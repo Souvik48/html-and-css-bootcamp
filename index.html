@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- CSS way 1: Style tag 
+        <style>
+        body{
+            color:blue;
+        }
+        3rd Way of doing CSS: external Link
+    </style> -->
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Souvik's Component Library</h1>
-    <p>My name is Souvik Das and I am a full stack web developer.</p>
+    <!-- CSS way 2:
+        <h1 style="color:red">Souvik's Component Library</h1> -->
+    <h1 id="tophead">Souvik's Component Library</h1>
+    <p class="para">My name is Souvik Das and I am a full stack web developer.</p>
 
     <hr>
     <h2>@Typography</h2
@@ -15,7 +25,7 @@
     <h1>This is the biggest heading.</h1>    
     <h2>This is the second biggest heading.</h2>
     <p>This is a paragraph tag</p>
-    <small>This is a relatively small text</small>
+    <small class="para">This is a relatively small text</small>
 
     <h3>@fluid container</h3>
     <div>This is a centered container and it will go till the end of the page.</div>
